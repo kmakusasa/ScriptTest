@@ -13,8 +13,17 @@ public class Test : MonoBehaviour
 
         int[] array = { 1, 2, 3, 4, 5 };
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++)
+        {
+
             Debug.Log(array[i]);
+        }
+
+        for (int i = 4; i >=0 ; i--)
+        {
+
+            Debug.Log(array[i]);
+
         }
     }
     void Update()
